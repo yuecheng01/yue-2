@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\20180302job\\yue\\SwipeBackLayoutLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_shadow_right.png.flat",
+        "source": "F:\\20180302job\\yue\\SwipeBackLayoutLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shadow_right.png"
+    },
+    {
+        "merged": "F:\\20180302job\\yue\\SwipeBackLayoutLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_swipeback_layout.xml.flat",
+        "source": "F:\\20180302job\\yue\\SwipeBackLayoutLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\swipeback_layout.xml"
+    },
+    {
+        "merged": "F:\\20180302job\\yue\\SwipeBackLayoutLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_shadow_left.png.flat",
+        "source": "F:\\20180302job\\yue\\SwipeBackLayoutLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shadow_left.png"
+    },
+    {
+        "merged": "F:\\20180302job\\yue\\SwipeBackLayoutLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_shadow_bottom.png.flat",
+        "source": "F:\\20180302job\\yue\\SwipeBackLayoutLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\shadow_bottom.png"
+    }
+]

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccentblue</item>
+        <item name="colorPrimaryDark">@color/colorAccentblue</item>
+        <item name="colorAccent">@color/colorAccentblue</item>
+        <!-- 解决activity切换时的黑屏问题 -->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <!--默认主题-->
+    <style name="DefaultAppThem" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorAccentblue</item>
+        <item name="colorPrimaryDark">@color/colorAccentblue</item>
+        <item name="colorAccent">@color/colorAccentblue</item>
+    </style>
+    <!--红色主题-->
+    <style name="RedAppThem" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorAccentred</item>
+        <item name="colorPrimaryDark">@color/colorAccentred</item>
+        <item name="colorAccent">@color/colorAccentred</item>
+    </style>
+    <!--紫色主题-->
+    <style name="PurpleAppThem" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorAccentpurple</item>
+        <item name="colorPrimaryDark">@color/colorAccentpurple</item>
+        <item name="colorAccent">@color/colorAccentpurple</item>
+    </style>
+    <!--黑色主题-->
+    <style name="BlackAppThem" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/colorAccentblack</item>
+        <item name="colorPrimaryDark">@color/colorAccentblack</item>
+        <item name="colorAccent">@color/colorAccentblack</item>
+    </style>
+</resources>

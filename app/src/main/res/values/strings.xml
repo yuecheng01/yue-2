@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">yue</string>
+
+    <string name="skip">跳过(%1$ds)</string>
+    <string name="message">消息</string>
+    <string name="contacts">联系人</string>
+    <string name="moments">动态</string>
+    <string name="service">活动</string>
+    <string name="Search">搜索</string>
+    <string name="startchat">发起聊天</string>
+    <string name="addfridend">添加好友</string>
+    <string name="creatgroup">创建群组</string>
+    <string name="qrcode">二维码</string>
+    <string name="forhelp">帮助</string>
+    <string name="No_friends">暂无好友</string>
+    <string name="friend_circle">朋友圈</string>
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="faillogin">登录失败,请检查您的的用户名和密码!</string>
+</resources>

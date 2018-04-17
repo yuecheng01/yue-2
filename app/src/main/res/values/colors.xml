@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">?attr/colorPrimary</color>
+    <color name="colorPrimaryDark">?attr/colorPrimary</color>
+    <color name="colorAccent">?attr/colorPrimary</color>
+
+    <!--主题色begin-->
+    <color name="colorAccentblue">#1A8EA8</color>
+    <color name="colorAccentred">#FC3E32</color>
+    <color name="colorAccentpurple">#7F00FF</color>
+    <color name="colorAccentblack">#2c2e2e</color>
+    <!--主题色end-->
+    <color name="red">#FF5055</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+
+    <color name="F888888">#888888</color>
+    <color name="act">#00000000</color>
+
+    <color name="colorTextError">#FF0000</color>
+    <!--pop背景颜色-->
+    <color name="pop_back">#8fD8BFD8</color>
+    <!--toastbackground-->
+    <color name="toastbackground">#a0333333</color>
+
+    <color name="praise_item_default">#333333</color>
+    <color name="praise_item_selector_default">#cccccc</color>
+    <color name="default_clickable_color">#cccccc</color>
+    <color name="im_font_color_text_hint">#abb1b6</color>
+    <color name="name_selector_color">#cccccc</color>
+    <color name="im_social_dig_name_bg">#DDDDDD</color>
+    <color name="im_line_color">#dadada</color>
+    <color name="praise_item">#8290AF</color>
+</resources>
