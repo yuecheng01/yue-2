@@ -67,4 +67,15 @@ public class SelectorUtils {
         drawable.setColor(CommonUtils.getColorByAttrId(AppUtils.getAppContext(),R.attr.colorPrimary));
         return drawable;
     }
+
+    /**
+     * 定制toast背景
+     * @return
+     */
+    public static Drawable getToastBackDrawable(){
+        GradientDrawable drawable = new GradientDrawable();
+        drawable.setCornerRadius(5);
+        drawable.setColor(AppUtils.getAppContext().getResources().getColor(R.color.toastbackground));
+        return drawable;
+    }
 }

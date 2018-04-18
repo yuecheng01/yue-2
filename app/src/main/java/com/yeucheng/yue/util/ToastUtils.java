@@ -1,6 +1,8 @@
 package com.yeucheng.yue.util;
 
 import android.content.Context;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -21,6 +23,7 @@ public class ToastUtils {
     private ToastUtils() {
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     private static void getToast(Context context) {
         if (mToast == null) {
             mToast = new Toast(context);
@@ -30,13 +33,15 @@ public class ToastUtils {
             ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(ViewGroup
                     .LayoutParams.WRAP_CONTENT,ViewGroup.LayoutParams.WRAP_CONTENT);
             tvToast.setLayoutParams(params);
-            tvToast.setBackgroundColor(context.getResources().getColor(R.color.toastbackground));
+            tvToast.setPadding(8,8,8,8);
+            tvToast.setBackground(SelectorUtils.getToastBackDrawable());
             tvToast.setTextColor(context.getResources().getColor(R.color.white));
         }
         mToast.setView(tvToast);
     }
 
-    public static void showmessage( final Object message) {
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
+    public static void showmessage(final Object message) {
         getToast(AppUtils.getAppContext());
         tvToast.setText(message + "");
         //居下
