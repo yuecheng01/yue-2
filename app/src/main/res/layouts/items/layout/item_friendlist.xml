@@ -29,7 +29,7 @@
             android:id="@+id/frienduri"
             android:layout_width="@dimen/dp32"
             android:layout_height="@dimen/dp32"
-            android:src="@drawable/ic_launcher_foreground"
+            android:src="@drawable/yue"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="@dimen/dp16"
             android:scaleType="centerCrop"/>
