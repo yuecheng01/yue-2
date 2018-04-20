@@ -3,14 +3,17 @@ package com.yeucheng.yue.base;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.yeucheng.yue.R;
+import com.yeucheng.yue.app.Yue;
 import com.yeucheng.yue.sp.SharedPreferencesUtils;
 import com.yeucheng.yue.sp.SpSave;
 import com.yeucheng.yue.util.CommonUtils;
@@ -132,6 +135,7 @@ public abstract class AbsBaseActivity extends AppCompatActivity implements Swipe
      *
      * @param s
      */
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     protected void showMessage(String s) {
         ToastUtils.showmessage(s);
     }
@@ -139,6 +143,8 @@ public abstract class AbsBaseActivity extends AppCompatActivity implements Swipe
     @Override
     protected void onDestroy() {
         LogUtils.d(TAG,"onDestory");
+        // 观察内存泄漏情况
+        Yue.getRefWatcher(this).watch(this);
         super.onDestroy();
     }
 
